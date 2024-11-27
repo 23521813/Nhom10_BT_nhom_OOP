@@ -33,7 +33,7 @@ bool NhomA::KTDiTruyen(char me, char con) {
 }
 
 bool NhomA::TuongThich(char nm, bool b) {
-    if (!LayRh() && (nm == 'B' || nm == 'C')) {
+    if (!LayRh() && (nm == 'A' || nm == 'C')) {
         return true;
     }
     if (LayRh() && b && (nm == 'A' || nm == 'C')) {
