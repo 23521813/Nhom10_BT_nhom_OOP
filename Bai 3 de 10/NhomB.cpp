@@ -36,7 +36,7 @@ bool NhomB::TuongThich(char nm, bool b) {
     if (!LayRh() && (nm == 'B' || nm == 'C')) {
         return true;
     }
-    if (LayRh() && b && (nm == 'A' || nm == 'C')) {
+    if (LayRh() && b && (nm == 'B' || nm == 'C')) {
         return true;
     }
     return false;
