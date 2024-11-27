@@ -13,11 +13,18 @@ bool NhomAB::KTDiTruyen(char me, char con) {
         if (con == 'A' || con == 'B' || con == 'C') {
             return true;
         }
-    } else if (me == 'B') {
+    } 
+    if (me == 'B') {
         if (con == 'A' || con == 'B' || con == 'C') {
             return true;
         }
-    } else if (me == 'O') {
+    } 
+    if (me == 'C') {
+        if (con == 'A' || con == 'B' || con == 'C') {
+            return true;
+        }
+    } 
+    if (me == 'O') {
         if (con == 'A' || con == 'B') {
             return true;
         }
