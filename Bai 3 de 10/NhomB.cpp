@@ -10,14 +10,21 @@ char NhomB::LayTen() {
 
 bool NhomB::KTDiTruyen(char me, char con) {
     if (me == 'A') {
-        if (con == 'A' || con == 'B' || con == 'O') {
+        if (con == 'A' || con == 'B' || con == 'C' || con == 'O') {
             return true;
         }
-    } else if (me == 'B') {
+    } 
+    if (me == 'B') {
         if (con == 'B' || con == 'O') {
             return true;
         }
-    } else if (me == 'O') {
+    } 
+    if (me == 'C') {
+        if (con == 'A' || con == 'B' || con == 'C') {
+            return true;
+        }
+    }   
+    if (me == 'O') {
         if (con == 'B' || con == 'O') {
             return true;
         }
